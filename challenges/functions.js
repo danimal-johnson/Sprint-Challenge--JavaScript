@@ -9,7 +9,7 @@
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
-consume = function (a, b, cb) {
+let consume = function (a, b, cb) {
    cb (a, b);
 }
 
